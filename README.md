@@ -1,6 +1,6 @@
 
 <p align="center">
- <img src="assets/logos/inst-toit.png">
+ <img width="200" src="assets/logos/inst-toit.png">
  <h1 align="center">RIoT Dev Day 2022 Demo</h1>
   <p align="center">
     Toit Demo
