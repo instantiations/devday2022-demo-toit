@@ -9,7 +9,7 @@
 </p>
 
 
-Material used for [RIoT Dev Day 2022](https://www.fast.org.ar/) demo in the [Taking IoT Programming to a Higher Level](https://www.meetup.com/RIoT-NC/events/279446784/) presentation.
+Material used for [RIoT Dev Day 2022](https://riot.org/event/riot-developer-day-2022/) demo in the [Taking IoT Programming to a Higher Level](https://www.meetup.com/RIoT-NC/events/279446784/) presentation.
 
 
 
