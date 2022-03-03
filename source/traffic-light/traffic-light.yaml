@@ -1,0 +1,5 @@
+name: "Traffic Light"
+entrypoint: traffic-light.toit
+triggers:
+  on_boot: true
+  on_install: true
