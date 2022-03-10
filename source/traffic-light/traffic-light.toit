@@ -12,9 +12,8 @@ class TrafficLight:
   turnAllLightsOff: turnAllLights OFF
 
   turnAllLights number:
-    redLight.set number
-    yellowLight.set number
-    greenLight.set number
+    allLights := [redLight, yellowLight, greenLight]
+	allLights.do: it.set number
 
   printAllLights:
     print "Red: $redLight"
