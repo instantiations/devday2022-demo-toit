@@ -11,6 +11,20 @@
 
 Material used for [RIoT Dev Day 2022](https://riot.org/event/riot-developer-day-2022/) demo in the [Taking IoT Programming to a Higher Level](https://www.meetup.com/RIoT-NC/events/279446784/) presentation.
 
+
+## Date and Time Logger Demo
+
+Simple demo that prints the Date and Time into the console:
+
+### dateAndTime.toit
+
+```
+main:
+  time := Time.now.local
+  print "Time: $(%02d time.h):$(%02d time.m)"
+  print "Date: $(%04d time.year)-$(%02d time.month)-$(%02d time.day)"
+```
+
 ## Traffic Light Demo
 
 <img width="500" src="assets/pictures/traffictLight.png">
@@ -37,9 +51,8 @@ class TrafficLight:
   turnAllLightsOff: turnAllLights OFF
 
   turnAllLights number:
-    redLight.set number
-    yellowLight.set number
-    greenLight.set number
+    allLights := [redLight, yellowLight, greenLight]
+    allLights.do: it.set number
 
   printAllLights:
     print "Red: $redLight"
